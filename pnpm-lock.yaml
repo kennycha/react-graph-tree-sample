@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@kennycha/react-graph-tree':
-        specifier: ^1.0.0
-        version: 1.0.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(styled-components@6.1.19(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(zustand@5.0.8(@types/react@19.1.12)(react@19.1.1))
+        specifier: ^1.0.1
+        version: 1.0.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(styled-components@6.1.19(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(zustand@5.0.8(@types/react@19.1.12)(react@19.1.1))
       react:
         specifier: ^19.1.1
         version: 19.1.1
@@ -375,8 +375,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.30':
     resolution: {integrity: sha512-GQ7Nw5G2lTu/BtHTKfXhKHok2WGetd4XYcVKGx00SjAk8GMwgJM3zr6zORiPGuOE+/vkc90KtTosSSvaCjKb2Q==}
 
-  '@kennycha/react-graph-tree@1.0.0':
-    resolution: {integrity: sha512-gF73PvTcYrOVdJyZ/rfWPgoWI82M4MqU5v9WRHC7JyJUxcuKWYeY5WqdbsvXPnP42mDeq6LkCkSPCPfQLnKVMQ==}
+  '@kennycha/react-graph-tree@1.0.1':
+    resolution: {integrity: sha512-gMGqbqGB1vwqlr+cFhhS9mAKO+C/7ZwnXP7EcwSNEtETZ/ugOVB7DLVwyrm1R3H9wQzIq46+WvAWF4x0+UThxw==}
     peerDependencies:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
@@ -1462,7 +1462,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@kennycha/react-graph-tree@1.0.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(styled-components@6.1.19(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(zustand@5.0.8(@types/react@19.1.12)(react@19.1.1))':
+  '@kennycha/react-graph-tree@1.0.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(styled-components@6.1.19(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(zustand@5.0.8(@types/react@19.1.12)(react@19.1.1))':
     dependencies:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
