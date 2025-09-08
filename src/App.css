@@ -22,14 +22,6 @@
   font-weight: 600;
 }
 
-/* Links container */
-.app-links {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 /* Base link styles */
 .app-link {
   display: flex;
@@ -62,9 +54,20 @@
   background-color: #2c3e50;
 }
 
+/* Main content container */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+}
+
 /* Graph container styles */
 .graph-container {
-  width: 1080px;
+  width: 100%;
+  max-width: 800px;
   height: 480px;
   background-color: white;
   border-radius: 12px;
@@ -73,11 +76,43 @@
   border: 1px solid #e1e8ed;
 }
 
+/* JSON viewer styles */
+.graph-json-viewer {
+  width: 100%;
+  max-width: 800px;
+}
+
+.graph-json-viewer h2 {
+  color: #ecf0f1;
+  margin: 0 0 16px 0;
+  font-size: 1.5rem;
+}
+
+.graph-json-viewer pre {
+  height: 448px;
+  margin: 0;
+}
+
 /* Responsive design */
-@media (max-width: 1120px) {
+@media (min-width: 1201px) {
+  .main-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
   .graph-container {
-    width: calc(100vw - 40px);
-    max-width: 1080px;
+    flex: 1;
+    max-width: none;
+    width: auto;
+  }
+
+  .graph-json-viewer {
+    flex: 1;
+    max-width: none;
+  }
+
+  .graph-json-viewer pre {
+    height: 448px;
   }
 }
 
@@ -90,11 +125,11 @@
     font-size: 2rem;
   }
 
-  .app-links {
-    gap: 10px;
+  .graph-container {
+    height: 400px;
   }
 
-  .graph-container {
-    height: 600px;
+  .main-content {
+    gap: 10px;
   }
 }

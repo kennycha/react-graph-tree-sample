@@ -9,8 +9,11 @@ importers:
   .:
     dependencies:
       '@kennycha/react-graph-tree':
-        specifier: ^1.0.1
-        version: 1.0.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(styled-components@6.1.19(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(zustand@5.0.8(@types/react@19.1.12)(react@19.1.1))
+        specifier: ^1.0.4
+        version: 1.0.4(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(styled-components@6.1.19(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(zustand@5.0.8(@types/react@19.1.12)(react@19.1.1))
+      es-toolkit:
+        specifier: ^1.39.10
+        version: 1.39.10
       react:
         specifier: ^19.1.1
         version: 19.1.1
@@ -375,8 +378,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.30':
     resolution: {integrity: sha512-GQ7Nw5G2lTu/BtHTKfXhKHok2WGetd4XYcVKGx00SjAk8GMwgJM3zr6zORiPGuOE+/vkc90KtTosSSvaCjKb2Q==}
 
-  '@kennycha/react-graph-tree@1.0.1':
-    resolution: {integrity: sha512-gMGqbqGB1vwqlr+cFhhS9mAKO+C/7ZwnXP7EcwSNEtETZ/ugOVB7DLVwyrm1R3H9wQzIq46+WvAWF4x0+UThxw==}
+  '@kennycha/react-graph-tree@1.0.4':
+    resolution: {integrity: sha512-ZUzzfpMghPlcktLTEsVUoITZhWRHduRfLwiQ72/fP7PJYEVZG0dK0iQtsbJLFgUCk2rNYtiFwlhvPmbtpahFHw==}
     peerDependencies:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
@@ -690,6 +693,9 @@ packages:
 
   electron-to-chromium@1.5.214:
     resolution: {integrity: sha512-TpvUNdha+X3ybfU78NoQatKvQEm1oq3lf2QbnmCEdw+Bd9RuIAY+hJTvq1avzHM0f7EJfnH3vbCnbzKzisc/9Q==}
+
+  es-toolkit@1.39.10:
+    resolution: {integrity: sha512-E0iGnTtbDhkeczB0T+mxmoVlT4YNweEKBLq7oaU4p11mecdsZpNWOglI4895Vh4usbQ+LsJiuLuI2L0Vdmfm2w==}
 
   esbuild@0.25.9:
     resolution: {integrity: sha512-CRbODhYyQx3qp7ZEwzxOk4JBqmD/seJrzPa/cGjY1VtIn5E09Oi9/dB4JwctnfZ8Q8iT7rioVv5k/FNT/uf54g==}
@@ -1462,7 +1468,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@kennycha/react-graph-tree@1.0.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(styled-components@6.1.19(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(zustand@5.0.8(@types/react@19.1.12)(react@19.1.1))':
+  '@kennycha/react-graph-tree@1.0.4(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(styled-components@6.1.19(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(zustand@5.0.8(@types/react@19.1.12)(react@19.1.1))':
     dependencies:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
@@ -1771,6 +1777,8 @@ snapshots:
   deep-is@0.1.4: {}
 
   electron-to-chromium@1.5.214: {}
+
+  es-toolkit@1.39.10: {}
 
   esbuild@0.25.9:
     optionalDependencies:
