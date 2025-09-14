@@ -1,9 +1,10 @@
-import { useState } from "react";
 import {
   GraphEditor,
   type Graph,
   type GraphEditorConfig,
 } from "@kennycha/react-graph-tree";
+import { useState } from "react";
+import { FaGithub } from "react-icons/fa";
 import "./App.css";
 
 const INITIAL_GRAPH: Graph = {
@@ -146,6 +147,15 @@ function App() {
     <div className="app-container">
       <header className="app-header">
         <h1 className="app-title">React Graph Tree Sample</h1>
+        <a
+          href="https://github.com/kennycha/react-graph-tree-sample"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-link-container"
+        >
+          <FaGithub size={20} />
+          <p>View on GitHub</p>
+        </a>
       </header>
 
       <div className="main-content">

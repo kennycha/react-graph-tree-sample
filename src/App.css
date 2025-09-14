@@ -22,36 +22,17 @@
   font-weight: 600;
 }
 
-/* Base link styles */
-.app-link {
+.github-link-container {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 6px;
-  padding: 8px 16px;
-  color: white;
+  color: #ecf0f1;
   text-decoration: none;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 500;
-  transition: background-color 0.2s ease;
-}
 
-/* NPM link specific styles */
-.npm-link {
-  background-color: #e74c3c;
-}
-
-.npm-link:hover {
-  background-color: #c0392b;
-}
-
-/* GitHub link specific styles */
-.github-link {
-  background-color: #34495e;
-}
-
-.github-link:hover {
-  background-color: #2c3e50;
+  > p {
+    margin: 0;
+  }
 }
 
 /* Main content container */
